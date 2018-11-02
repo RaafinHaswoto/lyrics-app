@@ -1,4 +1,4 @@
-# Lyric Search App
+# LyricFinder App
 
 > App that finds song lyrics using React and the Musixmatch API.
 
@@ -20,8 +20,6 @@ npm start
 # Build for production
 npm run build
 ```
-
-## App Info
 
 ### Version
 
