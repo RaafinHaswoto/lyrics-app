@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-dark bg-dark mb-5">
       <span className="navbar-brand mb-0 h1 mx-auto">Lyrics Search App</span>
     </nav>
   );
-}
+};
+
+export default Navbar;
