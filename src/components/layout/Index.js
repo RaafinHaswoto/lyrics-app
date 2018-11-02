@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
 import Tracks from '../tracks/Tracks';
+import Search from '../tracks/Search';
 
-export default function Index() {
+const Index = () => {
   return (
     <React.Fragment>
-        <Tracks />
+      <Search />
+      <Tracks />
     </React.Fragment>
-  )
-}
+  );
+};
+
+export default Index;
